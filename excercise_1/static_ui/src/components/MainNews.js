@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './MainNews.module.css'
 
 export default function MainNews() {
     return (
-        <div>
-            Main
+        <div className={styles.container}>
+            Laatikko
         </div>
     )
 }

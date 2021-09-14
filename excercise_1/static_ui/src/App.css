@@ -1,1 +1,11 @@
+.App {
+  background-color: #e9eaed;
+}
 
+.newsContent {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}

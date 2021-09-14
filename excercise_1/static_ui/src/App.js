@@ -7,13 +7,15 @@ import SideNews from './components/SideNews';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Header />
       <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
       <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
       <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
-      <MainNews />
-      <SideNews />
+      <div className='newsContent'>
+        <MainNews />
+        <SideNews />
+      </div>
     </div>
   );
 }

@@ -9,7 +9,9 @@ function App() {
   return (
     <div>
       <Header />
-      <Notification />
+      <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
+      <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
+      <Notification topic='HS-ANALYYSI: ' body='alksdjlaksdjlaksjdlaksjdlaksdj' />
       <MainNews />
       <SideNews />
     </div>

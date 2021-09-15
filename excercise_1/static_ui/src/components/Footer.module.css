@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgba(248,248,248);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    flex: 100%;
+    align-items: center;
+    color: black;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+}

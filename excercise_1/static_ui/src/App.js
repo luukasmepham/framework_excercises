@@ -4,6 +4,7 @@ import Header from './components/Header';
 import MainNews from './components/MainNews';
 import Notification from './components/Notification';
 import SideNews from './components/SideNews';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -32,13 +33,14 @@ function App() {
             <h2> Luetuimmat </h2>
             <h2> __________ </h2>
           </div>
-          <SideNews topic='Facebook' body='Pörssi laskussa' />
-          <SideNews topic='Facebook' body='Pörssi laskussa' />
-          <SideNews topic='Facebook' body='Pörssi laskussa' />
-          <SideNews topic='Facebook' body='Pörssi laskussa' />
+          <SideNews topic='Facebook' body='Pörssi laskussa, tutkijat tutkivat asiaa.' />
+          <SideNews topic='Microsoft' body='Pörssi nousussa, kannattaa sijoittaa jos löytyy ylimääräistä rahaa' />
+          <SideNews topic='Google' body='Konkursissa. Ei voi mitään, sanoo Marin.' />
+          <SideNews topic='Apple' body='Romahtanut. Sama homma ku Googlella!' />
           <SideNews topic='Facebook' body='Pörssi laskussa' />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -3,9 +3,23 @@
 }
 
 .newsContent {
-  background-color: white;
+  background-color: #e9eaed;
   display: flex;
-  align-items: center;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.main {
+  background-color: white;
+  flex: 70%;
+}
+
+.side {
+  background-color: white;
+  flex: 30%;
+  margin-left: 2%;
+}
+
+.sideHeader {
+  padding-left: 15%;
 }

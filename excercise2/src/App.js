@@ -21,8 +21,26 @@ class App extends React.Component {
         { id: 4, value: 'Eggs', qty: 16, unit: 'x' }
       ]
     };
-
   }
+
+    addFood = (x) => 
+    {
+      if (x === 1) {
+      this.setState({items: [...this.state.items, {id:1, value: 'Milk', qty:5, unit:'ltr'}]});
+      }
+
+      else if (x === 2) {
+        this.setState({items: [...this.state.items, {id:2, value: 'Bananas', qty:6, unit:'pcs'}]});
+      }
+
+      else if (x === 3) {
+        this.setState({items: [...this.state.items, {id:3, value: 'Bread', qty:7, unit:'x'}]});
+      }
+
+      else if (x === 4) {
+        this.setState({items: [...this.state.items, {id:4, value: 'Eggs', qty:8, unit:'x'}]});
+      }
+    }
 
   render()
   {
@@ -33,6 +51,12 @@ class App extends React.Component {
         applicationName={ applicationName }
       />
       <ShoppingList items={ this.state.items } />
+      <div className='buttons'>
+        <button type="button" onClick={() => this.addFood(1)}> 5 Milk </button>
+        <button type="button" onClick={() => this.addFood(2)}> 6 Bananas </button>
+        <button type="button" onClick={() => this.addFood(3)}> 7 Breads </button>
+        <button type="button" onClick={() => this.addFood(4)}> 8 Eggs </button>
+      </div>
     </div>
   }
 }

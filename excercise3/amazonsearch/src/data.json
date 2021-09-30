@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "title": "MacBook Air 2020",
+        "image": "laptop.jpeg",
+        "rating": "★★★★☆",
+        "price": "39.99€"
+    },
+    {
+        "id":2,
+        "title": "Cheetos 200g",
+        "image": "cheetos.jpeg",
+        "rating": "★★★☆☆",
+        "price": "1.98€"
+    },
+    {
+        "id":3,
+        "title": "Japanese Chips 180g",
+        "image": "chips.jpeg",
+        "rating": "★★★★★",
+        "price": "2.99€"
+    },
+    {
+        "id":4,
+        "title": "Chinese Chips 200g",
+        "image": "chips2.jpeg",
+        "rating": "★★★★☆",
+        "price": "35.20€"
+    },
+    {
+        "id":5,
+        "title": "AR Glasses (untampered)",
+        "image": "glasses.jpeg",
+        "rating": "★☆☆☆☆",
+        "price": "509.90€"
+    },
+    {
+        "id":6,
+        "title": "Amazing lipstick (strawberry)",
+        "image": "lipstick.jpeg",
+        "rating": "★★★★☆",
+        "price": "2.00€"
+    },
+    {
+        "id":7,
+        "title": "Fake Oneblade *TRUE JAPANESE EDITION*",
+        "image": "oneblade.jpeg",
+        "rating": "★★★★★",
+        "price": "489.99€"
+    },
+    {
+        "id":8,
+        "title": "Magic powder 80g",
+        "image": "powder.jpeg",
+        "rating": "★★★★★",
+        "price": "10.00€"
+    },
+    {
+        "id":9,
+        "title": "Used toothbrush GILETTE",
+        "image": "toothbrush.jpeg",
+        "rating": "★★☆☆☆",
+        "price": "89.99€"
+    }
+  ]

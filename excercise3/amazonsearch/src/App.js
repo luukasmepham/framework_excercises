@@ -1,6 +1,7 @@
 import './App.css';
 import data from './data.json';
 import Products from './components/Products.js';
+import Search from './components/Search.js';
 
 import React, { Component } from 'react'
 
@@ -26,21 +27,15 @@ export default class App extends Component {
       }
   
       return results.filter((results) => {
-          const resultName = results.title.toLowerCase();
-          return resultName.includes(query);
+          const resultTitle = results.title.toLowerCase();
+          return resultTitle.includes(query);
       })
   }
 
     return (
       <div>
         <div>
-          <div className="searchField">
-            <p> Search </p>
-            <input type="search" 
-                   className="textField" 
-                   value = {this.state.inputValue}
-                   onChange={event => this.updateInputValue(event)}/>
-          </div>
+          <Search value = {this.state.inputValue} onchange = {event => this.updateInputValue(event)}/>
         </div>
         <div>
           <Products products = {filteredSearch(this.state.products, this.state.inputValue)}/>
